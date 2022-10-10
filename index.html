@@ -8,6 +8,119 @@
     <title>First Brainstorm</title>
 </head>
 <body>
-    
+    <header>
+        <h1>First Brainstorm</h1>
+        <h2>Sunday, October 9</h2>
+    </header>
+    <main>
+        <nav>
+            <ol>
+                <li><a href="#check-ins">Check-ins</a></li>
+                <li><a href="#recap">Recap</a></li>
+                <li><a href="#brainstorming">Brainstorming</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#records">Records</a></li>
+            </ol>
+        </nav>
+        <hr>
+        <section>
+            <h2 id="check-ins">Check-ins</h2>
+            <ul>
+                <li>Person 1</li>
+                <li>Person 2</li>
+                <li>Person 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="agenda">Agenda</h2>
+            <ol>
+                <li>Recap</li>
+                <li>Brainstorming</li>
+                <li>Records</li>
+            </ol>
+        </section>
+        <section>
+            <h2 id="recap">Recap</h2>
+            <ul>
+                <li><b>Group Bonding</b>: make team members familiar to each other</li>
+                <li><b>Meeting Preparation</b>: define roles and set up rules</li>
+                <li><b>Group Contract</b>: make the rule written down in the repository</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="brainstorming">Brainstorming</h2>
+            <h3>Team Values</h3>
+            <p>The most important values are<br>
+                <em>Trust</em>,<br>
+                <em>Creativity</em>, and<br>
+                <em>Collaboration</em>.
+            </p>
+            <h3>Project Type</h3>
+            <p>Our project is going to be a website. <strong>We will discuss the content of the website next time.</strong></p>
+        </section>
+        <section>
+            <h2 id="records">Records</h2>
+            <div>
+                <image src="brainstorm.png" alt="barinstorm image here"></image><br>
+                <span>Brainstorm Diagram</span>
+            </div>
+            <details>
+                <summary><i>Video and audio recordings</i></summary>
+                <video src="video.mp4" controls>Video Here</video>
+                <audio src="audio.m4a" controls>Audio Here</audio>
+            </details>
+        </section>
+        <section>
+        <hr>
+        <section>
+            <h2>Comments</h2>
+            <form action="poset">
+                <fieldset>
+                    <legend>Input your comments</legend>
+                    <input type="date" name="data" id="data" hidden>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="attend">Attend the meeting:</label>
+                        <input type="checkbox" name="attend" id="attend">
+                    </div>
+                    <div>
+                        Select your role:
+                        <input type="radio" name="role" id="role1" value="Frontend"><label for="role1">Frontend</label>
+                        <input type="radio" name="role" id="role2" value="Backend"><label for="role2">Backend</label>
+                        <input type="radio" name="role" id="role3" value="Design"><label for="role3">Design</label>
+                    </div>
+                    <div>
+                        <label for="choice">Choose:</label>
+                        <input list="choices" name="choice" id="choice">
+                        <datalist id="choices">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="select">Select</label>
+                        <select name="select" id="select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comment">Comment:</label> <br>
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>© 2022 Group 2</p>
+    </footer>
 </body>
 </html>
