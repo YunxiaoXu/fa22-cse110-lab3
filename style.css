@@ -1,0 +1,25 @@
+* {}
+
+.hidden {}
+
+#comment {}
+
+p {}
+
+[type="radio"] {}
+
+img:hover {}
+
+h2, h3 {}
+
+ol a {}
+
+ul > li {}
+
+nav ~ section {}
+
+h3 + p {}
+
+input.hidden {}
+
+
