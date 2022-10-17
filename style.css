@@ -68,6 +68,12 @@ nav ~ section {
     height: fit-content;
 }
 
+label:active {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 h3 + p {}
 
 input.hidden {}
