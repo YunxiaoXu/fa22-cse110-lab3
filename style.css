@@ -4,7 +4,10 @@
     display: none;
 }
 
-#comment {}
+#comment {
+    font-style: italic;
+    font-size: 1.2em;
+}
 
 header {
     position: sticky;
@@ -77,3 +80,15 @@ label:active {
 h3 + p {}
 
 input.hidden {}
+
+@media (max-width: 12in) {
+    body {
+        max-width: 8in;
+    }
+    img {
+        width: 3.5in
+    }
+    img:hover {
+        width: 7in;
+    }
+}
