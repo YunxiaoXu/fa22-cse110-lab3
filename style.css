@@ -8,10 +8,20 @@ p {}
 
 [type="radio"] {}
 
-img:hover {}
+img {
+    width: 4in;
+}
+
+img:hover {
+    display: block;
+    margin: auto;
+    width: 9in;
+}
 
 body {
+    background-color: lightgrey;
     max-width: 10in;
+    padding: 10pt 1in 10pt 1in;
     margin: 0 auto 0 auto;
 }
 
@@ -20,6 +30,7 @@ header > h2 {
 }
 
 h2, h3 {
+    margin-top: 1em;
     border: 2pt solid hsl(50, 50%, 50%);
     border-radius: 10px;
 }
@@ -32,7 +43,8 @@ ol a,a:visited {
 
 #check-ins + ul > li {
     font-size: 1.1em;
-    padding-top: 0.2ch;
+    padding-top: 0.1ch;
+    padding-bottom: 0.1ch;
     font-style: italic;
     
 }
