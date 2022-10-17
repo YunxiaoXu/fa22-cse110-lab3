@@ -1,6 +1,8 @@
 * {}
 
-.hidden {}
+.hidden {
+    display: none;
+}
 
 #comment {}
 
@@ -21,6 +23,7 @@ img:hover {
 body {
     background-color: lightgrey;
     max-width: 10in;
+    min-width: 4in;
     padding: 10pt 1in 10pt 1in;
     margin: 0 auto 0 auto;
 }
@@ -50,7 +53,9 @@ ol a,a:visited {
     
 }
 
-nav ~ section {}
+nav ~ section {
+    height: fit-content;
+}
 
 h3 + p {}
 
