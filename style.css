@@ -10,9 +10,15 @@ p {}
 
 img:hover {}
 
-h2, h3 {}
+h2, h3 {
+    border: 2pt solid hsl(50, 50%, 50%);
+    border-radius: 5pt;
+}
 
-ol a {}
+ol a,a:visited {
+    text-decoration-line: none;
+    color: rgb(0,0,250)
+}
 
 ul > li {}
 
