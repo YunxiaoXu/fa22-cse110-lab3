@@ -56,7 +56,7 @@ h2, h3 {
     border-radius: 10px;
 }
 
-ol a,a:visited {
+ol a, ol a:visited {
     text-decoration-line: none;
     color: rgb(0,0,250);
     font-size: 1.2rem;
