@@ -1,0 +1,129 @@
+* {
+    font-family: "zantrokeregular", serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#comment {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5pt;
+    background-color: rgba(211, 211, 211, 0.9);
+    border-bottom: 1pt solid grey;
+}
+
+[type="radio"] {
+    padding-left: 10pt;
+}
+
+img, video{
+    position: relative;
+    left: 0.5in;
+    width: 4in;
+}
+
+img:hover {
+    position: static;
+    display: block;
+    margin: auto;
+    width: 9in;
+}
+
+body {
+    background-color: lightgrey;
+    max-width: 10in;
+    min-width: 4in;
+    padding: 10pt 1in 10pt 1in;
+    margin: 0 auto 0 auto;
+}
+
+header > h2 {
+    border: none;
+    text-align: center;
+}
+
+h2, h3 {
+    margin-top: 1em;
+    border: 2pt solid hsl(50, 50%, 50%);
+    border-radius: 10px;
+}
+
+ol a, ol a:visited {
+    text-decoration-line: none;
+    color: rgb(0,0,250);
+    font-size: 1.2rem;
+}
+
+
+#check-ins + ul > li {
+    font-size: 1.1em;
+    padding-top: 0.1ch;
+    padding-bottom: 0.1ch;
+    font-style: italic;
+    
+}
+
+nav ~ section {
+    height: fit-content;
+}
+
+label:active {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h3 + p {
+    margin-left: 10pt;;
+}
+
+input.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 12in) {
+    body {
+        max-width: 8in;
+    }
+    img {
+        width: 3.5in
+    }
+    img:hover {
+        width: 7in;
+    }
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flexitem {
+    padding: 10pt;
+    margin: 10pt;
+    border: 1pt solid orange;
+    background-color: lightpink;
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2in auto auto auto;
+}
+
+.griditem {
+    padding: 10pt;
+    margin: 10pt;
+    border: 1pt solid cyan;
+    background-color: lightcyan;
+}

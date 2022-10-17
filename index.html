@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color: #e0e0e0;
+        }
+    </style>
     <title>First Brainstorm</title>
 </head>
 <body>
@@ -13,7 +22,7 @@
         <h2>Sunday, October 9</h2>
     </header>
     <main>
-        <nav>
+        <nav style="background-color: lightblue">
             <ol>
                 <li><a href="#check-ins">Check-ins</a></li>
                 <li><a href="#recap">Recap</a></li>
@@ -76,7 +85,7 @@
             <form action="poset">
                 <fieldset>
                     <legend>Input your comments</legend>
-                    <input type="date" name="data" id="data" hidden>
+                    <input type="date" name="data" id="data" class="hidden">
                     <div>
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name">
@@ -115,6 +124,18 @@
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
+        </section>
+        <section class="flex">
+            <h2 class="flexitem">Flex: </h2>
+            <div class="flexitem">flex a</div>
+            <div class="flexitem">flex b</div>
+            <div class="flexitem">flex c</div>
+        </section>
+        <section class="grid">
+            <h2 class="griditem">Grid:</h2>
+            <div class="griditem">grid 1</div>
+            <div class="griditem">grid 2</div>
+            <div class="griditem">grid 3</div>
         </section>
     </main>
     <hr>
