@@ -79,9 +79,11 @@ label:active {
 
 h3 + p {}
 
-input.hidden {}
+input.hidden {
+    display: none;
+}
 
-@media (max-width: 12in) {
+@media screen and (max-width: 12in) {
     body {
         max-width: 8in;
     }
@@ -91,4 +93,31 @@ input.hidden {}
     img:hover {
         width: 7in;
     }
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flexitem {
+    padding: 10pt;
+    margin: 10pt;
+    border: 1pt solid orange;
+    background-color: lightpink;
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2in auto auto auto;
+}
+
+.griditem {
+    padding: 10pt;
+    margin: 10pt;
+    border: 1pt solid cyan;
+    background-color: lightcyan;
 }
