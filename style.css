@@ -6,15 +6,25 @@
 
 #comment {}
 
-p {}
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5pt;
+    background-color: rgba(211, 211, 211, 0.9);
+    border-bottom: 1pt solid grey;
+}
 
 [type="radio"] {}
 
 img, video{
+    position: relative;
+    left: 0.5in;
     width: 4in;
 }
 
 img:hover {
+    position: static;
     display: block;
     margin: auto;
     width: 9in;
@@ -44,6 +54,7 @@ ol a,a:visited {
     color: rgb(0,0,250);
     font-size: 1.2rem;
 }
+
 
 #check-ins + ul > li {
     font-size: 1.1em;
