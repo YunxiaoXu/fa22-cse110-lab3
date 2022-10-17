@@ -10,17 +10,32 @@ p {}
 
 img:hover {}
 
+body {
+    max-width: 10in;
+    margin: 0 auto 0 auto;
+}
+
+header > h2 {
+    border: none;
+}
+
 h2, h3 {
     border: 2pt solid hsl(50, 50%, 50%);
-    border-radius: 5pt;
+    border-radius: 10px;
 }
 
 ol a,a:visited {
     text-decoration-line: none;
-    color: rgb(0,0,250)
+    color: rgb(0,0,250);
+    font-size: 1.2rem;
 }
 
-ul > li {}
+#check-ins + ul > li {
+    font-size: 1.1em;
+    padding-top: 0.2ch;
+    font-style: italic;
+    
+}
 
 nav ~ section {}
 
